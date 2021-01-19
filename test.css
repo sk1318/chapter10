@@ -14,12 +14,16 @@ section{
     width: 100%;
     margin: 0 auto;
 }
+
 .box{
     background-color: #EEEEEE;
     margin: 50px 30px 50px 0px;
     position: relative;
     width: 300px;
 }
+.box:nth-child(3){
+    margin-right: 0px;
+    }
 .wrapper{
   padding: 10px ;
 }
@@ -59,12 +63,16 @@ footer{
         width: 100%;
         margin: 50px 0px;
     }
-    .box{
+    .box {
         background-color: #EEEEEE;
         position: relative;
         width: 90%;
         margin: 20px auto;
     }
+    .box:nth-child(3){
+        margin: 20px auto;
+    }
+    
     .img{
         height: 150px;
         background-size: cover;
